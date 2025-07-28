@@ -1,4 +1,3 @@
-```md
 # 🏛️ Public Registry Plugin for Vendure
 
 A Vendure plugin that exposes a **Public Registry** of entities such as firms and advisors through a GraphQL API, enabling both admin and storefront access.
@@ -98,7 +97,7 @@ query {
     name
   }
 }
-````
+```
 
 ---
 
