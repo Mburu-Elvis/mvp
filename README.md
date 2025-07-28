@@ -165,7 +165,7 @@ Pull requests are welcome! For major changes, open an issue first to discuss you
 
 ## 📞 Contact
 
-For feedback, questions, or collaboration, reach out to [Your Name](mailto:your.email@example.com).
+For feedback, questions, or collaboration, reach out to [Elvis Mburu](mailto:your.mburuelvis310@gmail.com).
 
 ```
 
