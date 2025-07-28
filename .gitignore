@@ -5,3 +5,5 @@ static/assets
 static/email/test-emails
 
 /generated/prisma
+.env
+.display_file.sh
