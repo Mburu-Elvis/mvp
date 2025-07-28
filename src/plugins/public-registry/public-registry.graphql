@@ -1,0 +1,61 @@
+const publicRegistrySchema = gql`
+  type RegistryEntity {
+    id: ID!
+    name: String!
+    type: String!
+    category: String!
+    description: String!
+    keyword: String!
+    link: String
+  }
+
+  input PaginationInput {
+    page: Int
+    limit: Int
+  }
+
+  enum SortOrder {
+    asc
+    desc
+  }
+
+  input SortInput {
+    sortBy: String
+    order: SortOrder
+  }
+
+  extend type Query {
+    publicRegistryList(
+      page: Int = 1
+      limit: Int = 10
+      sortBy: String = "name"
+      order: SortOrder = asc
+    ): [RegistryEntity!]!
+
+    registryEntityById(id: ID!): RegistryEntity
+
+    registryByType(
+      type: String!
+      page: Int = 1
+      limit: Int = 10
+      sortBy: String = "name"
+      order: SortOrder = asc
+    ): [RegistryEntity!]!
+
+    registryByCategory(
+      category: String!
+      page: Int = 1
+      limit: Int = 10
+      sortBy: String = "name"
+      order: SortOrder = asc
+    ): [RegistryEntity!]!
+
+    registryByKeyword(
+      keyword: String!
+      page: Int = 1
+      limit: Int = 10
+      sortBy: String = "name"
+      order: SortOrder = asc
+    ): [RegistryEntity!]!
+  }
+`;
