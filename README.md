@@ -167,15 +167,3 @@ Pull requests are welcome! For major changes, open an issue first to discuss you
 
 For feedback, questions, or collaboration, reach out to [Elvis Mburu](mailto:your.mburuelvis310@gmail.com).
 
-```
-
----
-
-Let me know if you'd like:
-
-- A version with real database integration.
-- CI/CD and testing sections.
-- A badge-rich GitHub-style top section.
-
-This is a great foundation for professional documentation and collaboration.
-```
